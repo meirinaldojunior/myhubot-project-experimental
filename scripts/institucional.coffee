@@ -10,5 +10,5 @@
 
 module.exports = (robot) ->
 
-  robot.hear /(o que é igreja adventista?|o que é iasd|o que é a iasd||quem são os adventistas?|historia dos adventistas)/i, (res) ->
-    res.send "Os adventistas do sétimo dia, com mais de 17 milhões de membros no mundo, são uma igreja cristã protestante organizada em 1863 nos Estados Unidos. Sua origem ocorre logo depois do movimento liderado por Guilherme Miller que ressaltou a necessidade de maior ênfase na pregação sobre a breve volta de Jesus Cristo a esse mundo. A sede sul-americana da Igreja Adventista do Sétimo Dia, responsável pela coordenação administrativa em oito países, registra mais de dois milhões de membros. Veja mais em http://www.adventistas.org/pt/institucional/"
+  robot.hear /(o que é a igreja adventista?|o que é a iasd|o que é a iasd|quem são os adventistas?|historia dos adventistas)/i, (res) ->
+    res.send "Os adventistas do sétimo dia, com mais de 17 milhões de membros no mundo, são uma igreja cristã protestante organizada em 1863 nos Estados Unidos. Veja mais em http://www.adventistas.org/pt/institucional/"

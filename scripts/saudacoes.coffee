@@ -10,7 +10,7 @@
 
 module.exports = (robot) ->
 
-  robot.hear /(Oi|Olá|boa noite|boa tarde|bom dia)/i, (res) ->
+  robot.hear /(Oi|Ola|boa noite|boa tarde|bom dia)/i, (res) ->
     res.send "Olá, tudo bem? no que podemos te ajudar?"
 
   robot.respond /(Tudo bem?|como você está?|como vc está?)/i, (res) ->
@@ -18,3 +18,6 @@ module.exports = (robot) ->
 
   robot.respond /(Tudo bem!|vou bem!|estou bem!)/i, (res) ->
     res.send "Que bom, ficamos felizes por isso!"
+
+  robot.respond /(mr hubot se apresente)/i, (res) ->
+    res.send "Oi pessoal! sou um robô e não fui treinado ainda para fazer muita coisa."
